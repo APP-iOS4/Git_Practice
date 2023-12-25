@@ -16,7 +16,8 @@
 3. `practice.txt` 파일을 엽니다.
 <img width="698" alt="스크린샷 2023-06-24 오후 11 35 29" src="https://github.com/yanghojoon/GitPractice/assets/90880660/f70b0f7e-90c8-422a-9cc9-38c831890641">
 
-5. 답변을 작성합니다.
+4. 답변을 작성합니다.
+5. 본인이 작성한 변경사항을 커밋한 후 생성한 브랜치로 현 레포지토리에 push합니다.
 
 ### Step 2
 1. 제가 main 브랜치에 수정된 내용을 커밋할 예정입니다.
