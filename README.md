@@ -1,0 +1,2 @@
+# Git_Practice
+Git 관련 실습을 위한 프로젝트입니다. 
