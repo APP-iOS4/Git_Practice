@@ -19,6 +19,8 @@
 		DE12D43B2A46AAE8008178E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE12D43D2A46AAE9008178E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE12D4402A46AAE9008178E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DE7A18AC2B3A5740008E5CC3 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DE7A18AD2B3A5798008E5CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		DE12D4382A46AAE8008178E6 /* GitPractice */ = {
 			isa = PBXGroup;
 			children = (
+				DE7A18AD2B3A5798008E5CC3 /* Info.plist */,
+				DE7A18AC2B3A5740008E5CC3 /* Config.xcconfig */,
 				DE12D4392A46AAE8008178E6 /* GitPracticeApp.swift */,
 				DE12D43B2A46AAE8008178E6 /* ContentView.swift */,
 				DE12D43D2A46AAE9008178E6 /* Assets.xcassets */,
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		DE12D4422A46AAE9008178E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7A18AC2B3A5740008E5CC3 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -207,6 +212,7 @@
 		};
 		DE12D4432A46AAE9008178E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE7A18AC2B3A5740008E5CC3 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -270,6 +276,7 @@
 				DEVELOPMENT_TEAM = FA464JRW3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +306,7 @@
 				DEVELOPMENT_TEAM = FA464JRW3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GitPractice/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
