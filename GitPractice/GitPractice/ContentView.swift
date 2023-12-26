@@ -22,6 +22,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text("")
             Text("시크릿 키: \(secretKey)")
         }
         .padding()
